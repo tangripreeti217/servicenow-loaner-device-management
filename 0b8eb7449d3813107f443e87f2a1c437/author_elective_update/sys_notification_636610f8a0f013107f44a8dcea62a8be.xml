@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_notification">
+    <sys_notification action="DELETE">
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <advanced_event_condition>false</advanced_event_condition>
+        <category display_value="Approval" name="Approval">1a9d02137f232200ee2e108c3ffa9113</category>
+        <condition/>
+        <description/>
+        <event/>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_1_table>sys_user</event_parm_1_table>
+        <event_parm_2>false</event_parm_2>
+        <event_parm_2_table>sys_user</event_parm_2_table>
+        <include_originator>true</include_originator>
+        <mandatory>false</mandatory>
+        <name>	Loaner Request Submitted to IT Support</name>
+        <notification_classifier/>
+        <order>100</order>
+        <recipient_fields/>
+        <recipient_users>6816f79cc0a8016401c5a33be04be441</recipient_users>
+        <script><![CDATA[(function runRecipientScript(/*String*/ parm1, /*String*/ parm2) {
+      /*
+      //Create instance of AdvancedNotificationRecipients to add recipients
+      var nr = new sn_notification.AdvancedNotificationRecipients();
+      var sysIds = [];
+      var gr = new GlideRecord('sys_user');
+      gr.addQuery('first_name','IN',parm1);
+      gr.query();
+      while (gr.next()) {
+        sysIds.push(gr.getValue('sys_id'));
+      }
+      nr.addRecipientInfo('sys_user',sysIds);
+      return nr;*/
+      })(parm1,parm2);]]></script>
+        <sys_class_name>sys_notification</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-24 01:47:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>636610f8a0f013107f44a8dcea62a8be</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>	Loaner Request Submitted to IT Support</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Device App" source="x_snc_loaner_dev_0">0b8eb7449d3813107f443e87f2a1c437</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device App">0b8eb7449d3813107f443e87f2a1c437</sys_scope>
+        <sys_update_name>sys_notification_636610f8a0f013107f44a8dcea62a8be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-24 01:51:02</sys_updated_on>
+        <table>x_snc_loaner_dev_0_loaner_device_request</table>
+        <triggered_by>record_change</triggered_by>
+    </sys_notification>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Device App">0b8eb7449d3813107f443e87f2a1c437</application>
+        <file_path/>
+        <instance_id>a228c4534724df541a2207efe16d4310</instance_id>
+        <instance_name>nowlearning-nlinst04860868-6etwr-0001</instance_name>
+        <name>sys_notification_636610f8a0f013107f44a8dcea62a8be</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_notification"&gt;&lt;sys_notification action="INSERT_OR_UPDATE"&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_condition/&gt;&lt;advanced_event_condition&gt;false&lt;/advanced_event_condition&gt;&lt;category display_value="Approval" name="Approval"&gt;1a9d02137f232200ee2e108c3ffa9113&lt;/category&gt;&lt;condition/&gt;&lt;description/&gt;&lt;event/&gt;&lt;event_parm_1&gt;false&lt;/event_parm_1&gt;&lt;event_parm_1_table&gt;sys_user&lt;/event_parm_1_table&gt;&lt;event_parm_2&gt;false&lt;/event_parm_2&gt;&lt;event_parm_2_table&gt;sys_user&lt;/event_parm_2_table&gt;&lt;include_originator&gt;true&lt;/include_originator&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;name&gt;	Loaner Request Submitted to IT Support&lt;/name&gt;&lt;notification_classifier/&gt;&lt;order&gt;100&lt;/order&gt;&lt;recipient_fields/&gt;&lt;recipient_users&gt;6816f79cc0a8016401c5a33be04be441&lt;/recipient_users&gt;&lt;script&gt;&lt;![CDATA[(function runRecipientScript(/*String*/ parm1, /*String*/ parm2) {
+      /*
+      //Create instance of AdvancedNotificationRecipients to add recipients
+      var nr = new sn_notification.AdvancedNotificationRecipients();
+      var sysIds = [];
+      var gr = new GlideRecord('sys_user');
+      gr.addQuery('first_name','IN',parm1);
+      gr.query();
+      while (gr.next()) {
+        sysIds.push(gr.getValue('sys_id'));
+      }
+      nr.addRecipientInfo('sys_user',sysIds);
+      return nr;*/
+      })(parm1,parm2);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_notification&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-24 01:47:17&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;636610f8a0f013107f44a8dcea62a8be&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;	Loaner Request Submitted to IT Support&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Loaner Device App" source="x_snc_loaner_dev_0"&gt;0b8eb7449d3813107f443e87f2a1c437&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Loaner Device App"&gt;0b8eb7449d3813107f443e87f2a1c437&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_notification_636610f8a0f013107f44a8dcea62a8be&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-24 01:51:02&lt;/sys_updated_on&gt;&lt;table&gt;x_snc_loaner_dev_0_loaner_device_request&lt;/table&gt;&lt;triggered_by&gt;record_change&lt;/triggered_by&gt;&lt;/sys_notification&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>981716879</payload_hash>
+        <record_name>	Loaner Request Submitted to IT Support</record_name>
+        <reverted_from/>
+        <source>c78eb7449d3813107f443e87f2a1c43b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-24 01:51:02</sys_created_on>
+        <sys_id>3608d47ca0f013107f44a8dcea62a8f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a20b3fd6090000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-24 01:51:02</sys_updated_on>
+        <type>Notification</type>
+        <update_guid>3a08d47c63f01310728cf558a89a00ef</update_guid>
+        <update_guid_history>3a08d47c63f01310728cf558a89a00ef:981716879,f727d03c92f01310ddb51a4ad51fa0a1:1661129173</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-24 04:02:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_notification">sys_notification</sys_db_object>
+        <sys_id>5bf073280270473db4c1a11497acd301</sys_id>
+        <sys_metadata>636610f8a0f013107f44a8dcea62a8be</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>	Loaner Request Submitted to IT Support</sys_name>
+        <sys_package display_value="Loaner Device App" source="x_snc_loaner_dev_0">0b8eb7449d3813107f443e87f2a1c437</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device App">0b8eb7449d3813107f443e87f2a1c437</sys_scope>
+        <sys_scope_delete display_value="">894af13e7fe04fa0ab5778dde4263f10</sys_scope_delete>
+        <sys_update_name>sys_notification_636610f8a0f013107f44a8dcea62a8be</sys_update_name>
+        <sys_update_version display_value="sys_notification_636610f8a0f013107f44a8dcea62a8be">3608d47ca0f013107f44a8dcea62a8f0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-24 04:02:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

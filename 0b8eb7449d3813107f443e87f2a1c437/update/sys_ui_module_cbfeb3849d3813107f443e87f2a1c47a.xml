@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Loaner Device Request">8bfeb3849d3813107f443e87f2a1c476</application>
+        <filter/>
+        <name>Loaner Device Requests</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_snc_loaner_dev_0.loaner_device_request_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-22 10:44:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cbfeb3849d3813107f443e87f2a1c47a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Loaner Device Requests</sys_name>
+        <sys_package display_value="Loaner Device App" source="x_snc_loaner_dev_0">0b8eb7449d3813107f443e87f2a1c437</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device App">0b8eb7449d3813107f443e87f2a1c437</sys_scope>
+        <sys_update_name>sys_ui_module_cbfeb3849d3813107f443e87f2a1c47a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-22 10:44:35</sys_updated_on>
+        <table>x_snc_loaner_dev_0_loaner_device_request</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

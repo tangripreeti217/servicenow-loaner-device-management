@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Request a Loaner Device">b0dcdd34a0b813107f44a8dcea62a8ae</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-24 07:01:44</sys_created_on>
+        <sys_id>562f5938a0b813107f44a8dcea62a8a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Request a Loaner Device</sys_name>
+        <sys_package display_value="Loaner Device App" source="x_snc_loaner_dev_0">0b8eb7449d3813107f443e87f2a1c437</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device App">0b8eb7449d3813107f443e87f2a1c437</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_562f5938a0b813107f44a8dcea62a8a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-24 07:01:44</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Device App">0b8eb7449d3813107f443e87f2a1c437</application>
+        <file_path/>
+        <instance_id>a228c4534724df541a2207efe16d4310</instance_id>
+        <instance_name>nowlearning-nlinst04860868-6etwr-0001</instance_name>
+        <name>sc_cat_item_catalog_562f5938a0b813107f44a8dcea62a8a5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Request a Loaner Device">b0dcdd34a0b813107f44a8dcea62a8ae</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-24 07:01:44</sys_created_on><sys_id>562f5938a0b813107f44a8dcea62a8a5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Request a Loaner Device</sys_name><sys_package display_value="Loaner Device App" source="x_snc_loaner_dev_0">0b8eb7449d3813107f443e87f2a1c437</sys_package><sys_policy/><sys_scope display_value="Loaner Device App">0b8eb7449d3813107f443e87f2a1c437</sys_scope><sys_update_name>sc_cat_item_catalog_562f5938a0b813107f44a8dcea62a8a5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-24 07:01:44</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>642982779</payload_hash>
+        <record_name>Service Catalog.Request a Loaner Device</record_name>
+        <reverted_from/>
+        <source>c78eb7449d3813107f443e87f2a1c43b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-24 07:01:45</sys_created_on>
+        <sys_id>de2f5938a0b813107f44a8dcea62a8ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a20c5c4c050000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-24 07:01:45</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>de2f59383cb81310bd5a609478f300aa</update_guid>
+        <update_guid_history>de2f59383cb81310bd5a609478f300aa:642982779</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Request a Loaner Device">857add0d0d7013107f4481ea1ab1e04a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 01:19:40</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>05b6eec9735a49148820f78eac1eac90</sys_id>
+        <sys_metadata>562f5938a0b813107f44a8dcea62a8a5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Request a Loaner Device</sys_name>
+        <sys_package display_value="Loaner Device App" source="x_snc_loaner_dev_0">0b8eb7449d3813107f443e87f2a1c437</sys_package>
+        <sys_parent display_value="">b0dcdd34a0b813107f44a8dcea62a8ae</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device App">0b8eb7449d3813107f443e87f2a1c437</sys_scope>
+        <sys_scope_delete display_value="">894af13e7fe04fa0ab5778dde4263f10</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_562f5938a0b813107f44a8dcea62a8a5</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_562f5938a0b813107f44a8dcea62a8a5">de2f5938a0b813107f44a8dcea62a8ab</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 01:19:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
