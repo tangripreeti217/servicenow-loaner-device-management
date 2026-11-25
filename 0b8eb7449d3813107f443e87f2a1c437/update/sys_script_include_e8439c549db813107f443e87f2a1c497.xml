@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_loaner_dev_0.CallerDetailsAjax</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>CallerDetailsAjax</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var CallerDetailsAjax = Class.create();
+CallerDetailsAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getUserInfo: function() {
+    var userId = this.getParameter('sysparm_user_id');
+    var result = {
+            email: '',
+            department_id: '',
+            department_name: ''
+        };
+
+    var userGr = new GlideRecord('sys_user');
+    if (userGr.get(userId)) {
+            result.email = userGr.getValue('email') || '';
+            result.department_id = userGr.getValue('department') || '';
+            result.department_name = userGr.getDisplayValue('department') || '';
+        }
+
+    return JSON.stringify(result);
+    },
+
+    type: 'CallerDetailsAjax'
+});
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-22 12:14:13</sys_created_on>
+        <sys_id>e8439c549db813107f443e87f2a1c497</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CallerDetailsAjax</sys_name>
+        <sys_package display_value="Loaner Device App" source="x_snc_loaner_dev_0">0b8eb7449d3813107f443e87f2a1c437</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Loaner Device App">0b8eb7449d3813107f443e87f2a1c437</sys_scope>
+        <sys_update_name>sys_script_include_e8439c549db813107f443e87f2a1c497</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-22 12:14:13</sys_updated_on>
+    </sys_script_include>
+</record_update>

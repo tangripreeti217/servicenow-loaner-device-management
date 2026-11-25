@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Validate Loaner Device Request</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+    var empName = g_form.getValue('employee');
+    if (empName == '') {
+        g_form.addErrorMessage('Enter employee name');
+        return false;
+    }
+
+    var eqpType = g_form.getValue('equipment_type');
+    if (eqpType == '') {
+        g_form.addErrorMessage('Select equipment type');
+        return false;
+    }
+
+    var reqReason = g_form.getValue('request_reason');
+    if (reqReason == '') {
+        g_form.addErrorMessage('Enter request reason');
+        return false;
+    }
+
+    var retDate = g_form.getValue('expected_return_date');
+    var reqDate = g_form.getValue('required_date');
+
+    if (retDate <= reqDate) {
+        g_form.addErrorMessage('Select return date after request date');
+        return false;
+    }
+
+    return true;
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-22 12:24:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7545dc189db813107f443e87f2a1c4a1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Validate Loaner Device Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Device App" source="x_snc_loaner_dev_0">0b8eb7449d3813107f443e87f2a1c437</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device App">0b8eb7449d3813107f443e87f2a1c437</sys_scope>
+        <sys_update_name>sys_script_client_7545dc189db813107f443e87f2a1c4a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-22 12:27:23</sys_updated_on>
+        <table>x_snc_loaner_dev_0_loaner_device_request</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

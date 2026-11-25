@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="83aebb449d3813107f443e87f2a1c48d" label="Loaner Device Request" max_length="40" name="x_snc_loaner_dev_0_loaner_device_request" type="collection">
+        <element label="Assigned Asset Tag" max_length="40" name="assigned_asset_tag" type="string"/>
+        <element label="Employee" mandatory="true" max_length="32" name="employee" reference="sys_user" type="reference"/>
+        <element display="true" label="Equipment Guidance" max_length="500" name="equipment_guidance" read_only="true" type="string"/>
+        <element choice="1" label="Equipment Type" mandatory="true" max_length="40" name="equipment_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Laptop" value="laptop"/>
+                <element inactive_on_update="false" label="Desktop" value="desktop"/>
+                <element inactive_on_update="false" label="Mobile" value="mobile"/>
+            </choice>
+        </element>
+        <element label="Request Reason" mandatory="true" max_length="40" name="request_reason" type="string"/>
+        <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="approved"/>
+                <element inactive_on_update="false" label="Returned" value="returned"/>
+                <element inactive_on_update="false" label="Issued" value="issued"/>
+                <element inactive_on_update="false" label="Rejected" value="rejected"/>
+                <element inactive_on_update="false" label="Submitted" value="submitted"/>
+                <element inactive_on_update="false" label="Under Review" value="under_review"/>
+            </choice>
+        </element>
+        <element label="Required Date" max_length="40" name="required_date" type="glide_date"/>
+        <element label="Approval History" max_length="4000" name="approval_history" type="journal"/>
+        <element label="Approval Comments" max_length="40" name="approval_comments" type="string"/>
+        <element label="Expected Return Date" max_length="40" name="expected_return_date" type="glide_date"/>
+        <element label="Actual Return Date" max_length="40" name="actual_return_date" type="glide_date"/>
+        <element label="Department" max_length="40" name="department" reference="cmn_department" type="reference"/>
+        <element label="Employee Email" max_length="40" name="employee_email" type="string"/>
+        <element choice="1" label="Approval" max_length="40" name="approval" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" value="approved"/>
+                <element inactive_on_update="false" label="Not Yet Requested" value="not_requested"/>
+                <element inactive_on_update="false" label="Rejected" value="rejected"/>
+                <element inactive_on_update="false" label="Requested" value="requested"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index2">
+            <element name="employee"/>
+        </index>
+    </element>
+</database>

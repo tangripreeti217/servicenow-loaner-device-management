@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="32005310553413107f446142e7cd4a45" label="Loaner Request Audit" max_length="40" name="x_snc_loaner_dev_0_loaner_request_audit" type="collection">
+        <element label="Previous Status" max_length="40" name="previous_status" type="string"/>
+        <element label="Change Date" max_length="40" name="change_date" type="glide_date_time"/>
+        <element label="Changed By" max_length="32" name="changed_by" reference="sys_user" type="reference"/>
+        <element label="New Status" max_length="40" name="new_status" type="string"/>
+        <element label="Loaner Request" max_length="32" name="loaner_request" reference="x_snc_loaner_dev_0_loaner_device_request" type="reference"/>
+        <index name="index">
+            <element name="loaner_request"/>
+        </index>
+        <index name="index2">
+            <element name="changed_by"/>
+        </index>
+    </element>
+</database>

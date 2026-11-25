@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-22 10:44:35</sys_created_on>
+        <sys_id>8bfeb3849d3813107f443e87f2a1c4be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_loaner_dev_0_loaner_device_request.x_snc_loaner_dev_0.loaner_device_request_user</sys_name>
+        <sys_package display_value="Loaner Device App" source="x_snc_loaner_dev_0">0b8eb7449d3813107f443e87f2a1c437</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device App">0b8eb7449d3813107f443e87f2a1c437</sys_scope>
+        <sys_security_acl display_value="x_snc_loaner_dev_0_loaner_device_request">c3feb3849d3813107f443e87f2a1c495</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_8bfeb3849d3813107f443e87f2a1c4be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-22 10:44:35</sys_updated_on>
+        <sys_user_role display_value="x_snc_loaner_dev_0.loaner_device_request_user" name="x_snc_loaner_dev_0.loaner_device_request_user">76fe33849d3813107f443e87f2a1c46c</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Device App">0b8eb7449d3813107f443e87f2a1c437</application>
+        <file_path/>
+        <instance_id>a228c4534724df541a2207efe16d4310</instance_id>
+        <instance_name>nowlearning-nlinst04860868-6etwr-0001</instance_name>
+        <name>sys_security_acl_role_8bfeb3849d3813107f443e87f2a1c4be</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-22 10:44:35</sys_created_on><sys_id>8bfeb3849d3813107f443e87f2a1c4be</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_loaner_dev_0_loaner_device_request.x_snc_loaner_dev_0.loaner_device_request_user</sys_name><sys_package display_value="Loaner Device App" source="x_snc_loaner_dev_0">0b8eb7449d3813107f443e87f2a1c437</sys_package><sys_policy/><sys_scope display_value="Loaner Device App">0b8eb7449d3813107f443e87f2a1c437</sys_scope><sys_security_acl display_value="x_snc_loaner_dev_0_loaner_device_request">c3feb3849d3813107f443e87f2a1c495</sys_security_acl><sys_update_name>sys_security_acl_role_8bfeb3849d3813107f443e87f2a1c4be</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-22 10:44:35</sys_updated_on><sys_user_role display_value="x_snc_loaner_dev_0.loaner_device_request_user" name="x_snc_loaner_dev_0.loaner_device_request_user">76fe33849d3813107f443e87f2a1c46c</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-259853034</payload_hash>
+        <record_name>x_snc_loaner_dev_0_loaner_device_request.x_snc_loaner_dev_0.loaner_device_request_user</record_name>
+        <reverted_from/>
+        <source>c78eb7449d3813107f443e87f2a1c43b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-22 10:44:35</sys_created_on>
+        <sys_id>87feb3849d3813107f443e87f2a1c4c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a202db9a1c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-22 10:44:35</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>8bfeb384cb38131067c1d6a8d4e33ac1</update_guid>
+        <update_guid_history>8bfeb384cb38131067c1d6a8d4e33ac1:-259853034</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_snc_loaner_dev_0_loaner_device_request.x_snc_loaner_dev_0.loaner_device_reques">742535c50d3413107f4481ea1ab1e002</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 03:16:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>71f30c290c144524be35d9a4d85a3bf9</sys_id>
+        <sys_metadata>8bfeb3849d3813107f443e87f2a1c4be</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_loaner_dev_0_loaner_device_request.x_snc_loaner_dev_0.loaner_device_request_user</sys_name>
+        <sys_package display_value="Loaner Device App" source="x_snc_loaner_dev_0">0b8eb7449d3813107f443e87f2a1c437</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device App">0b8eb7449d3813107f443e87f2a1c437</sys_scope>
+        <sys_scope_delete display_value="">894af13e7fe04fa0ab5778dde4263f10</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_8bfeb3849d3813107f443e87f2a1c4be</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_8bfeb3849d3813107f443e87f2a1c4be">87feb3849d3813107f443e87f2a1c4c2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 03:16:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

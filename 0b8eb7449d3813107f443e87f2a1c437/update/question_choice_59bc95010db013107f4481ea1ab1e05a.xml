@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="What type of device do you need?">ca3c99cd0d7013107f4481ea1ab1e090</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 01:29:46</sys_created_on>
+        <sys_id>59bc95010db013107f4481ea1ab1e05a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Desktop</sys_name>
+        <sys_package display_value="Loaner Device App" source="x_snc_loaner_dev_0">0b8eb7449d3813107f443e87f2a1c437</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device App">0b8eb7449d3813107f443e87f2a1c437</sys_scope>
+        <sys_update_name>question_choice_59bc95010db013107f4481ea1ab1e05a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 01:29:46</sys_updated_on>
+        <text>Desktop</text>
+        <value>desktop</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=59bc95010db013107f4481ea1ab1e05a"/>
+</record_update>

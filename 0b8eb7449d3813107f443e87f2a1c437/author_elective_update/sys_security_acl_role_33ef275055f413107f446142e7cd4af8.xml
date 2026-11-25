@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-23 04:19:02</sys_created_on>
+        <sys_id>33ef275055f413107f446142e7cd4af8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.itil</sys_name>
+        <sys_package display_value="Loaner Device App" source="x_snc_loaner_dev_0">0b8eb7449d3813107f443e87f2a1c437</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device App">0b8eb7449d3813107f443e87f2a1c437</sys_scope>
+        <sys_security_acl display_value="">52efa35055f413107f446142e7cd4ae3</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_33ef275055f413107f446142e7cd4af8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-23 04:19:02</sys_updated_on>
+        <sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Device App">0b8eb7449d3813107f443e87f2a1c437</application>
+        <file_path/>
+        <instance_id>a228c4534724df541a2207efe16d4310</instance_id>
+        <instance_name>nowlearning-nlinst04860868-6etwr-0001</instance_name>
+        <name>sys_security_acl_role_33ef275055f413107f446142e7cd4af8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-23 04:19:02</sys_created_on><sys_id>33ef275055f413107f446142e7cd4af8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.itil</sys_name><sys_package display_value="Loaner Device App" source="x_snc_loaner_dev_0">0b8eb7449d3813107f443e87f2a1c437</sys_package><sys_policy/><sys_scope display_value="Loaner Device App">0b8eb7449d3813107f443e87f2a1c437</sys_scope><sys_security_acl display_value="">52efa35055f413107f446142e7cd4ae3</sys_security_acl><sys_update_name>sys_security_acl_role_33ef275055f413107f446142e7cd4af8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-23 04:19:02</sys_updated_on><sys_user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1949534278</payload_hash>
+        <record_name>.itil</record_name>
+        <reverted_from/>
+        <source>c78eb7449d3813107f443e87f2a1c43b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-23 04:19:02</sys_created_on>
+        <sys_id>9d507f5055f413107f446142e7cd4abf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a206a0fa0e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-23 04:19:02</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>51507f5024f41310fc592c54ec34c9bf</update_guid>
+        <update_guid_history>51507f5024f41310fc592c54ec34c9bf:-1949534278</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".itil">9bf431c50d3413107f4481ea1ab1e088</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-25 03:15:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>8ac63c4043244bb39df16a6d41a2ac39</sys_id>
+        <sys_metadata>33ef275055f413107f446142e7cd4af8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.itil</sys_name>
+        <sys_package display_value="Loaner Device App" source="x_snc_loaner_dev_0">0b8eb7449d3813107f443e87f2a1c437</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Device App">0b8eb7449d3813107f443e87f2a1c437</sys_scope>
+        <sys_scope_delete display_value="">894af13e7fe04fa0ab5778dde4263f10</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_33ef275055f413107f446142e7cd4af8</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_33ef275055f413107f446142e7cd4af8">9d507f5055f413107f446142e7cd4abf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-25 03:15:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
