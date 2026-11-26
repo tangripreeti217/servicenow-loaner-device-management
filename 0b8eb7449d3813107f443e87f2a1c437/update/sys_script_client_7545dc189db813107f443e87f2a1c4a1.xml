@@ -32,7 +32,7 @@
     var retDate = g_form.getValue('expected_return_date');
     var reqDate = g_form.getValue('required_date');
 
-    if (retDate <= reqDate) {
+    if (retDate && reqDate && retDate <= reqDate) {
         g_form.addErrorMessage('Select return date after request date');
         return false;
     }
@@ -45,7 +45,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7545dc189db813107f443e87f2a1c4a1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Validate Loaner Device Request</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Device App" source="x_snc_loaner_dev_0">0b8eb7449d3813107f443e87f2a1c437</sys_package>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Loaner Device App">0b8eb7449d3813107f443e87f2a1c437</sys_scope>
         <sys_update_name>sys_script_client_7545dc189db813107f443e87f2a1c4a1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-11-22 12:27:23</sys_updated_on>
+        <sys_updated_on>2026-11-25 12:19:09</sys_updated_on>
         <table>x_snc_loaner_dev_0_loaner_device_request</table>
         <type>onSubmit</type>
         <ui_type>10</ui_type>
