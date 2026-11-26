@@ -12,8 +12,10 @@
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
 	// g_form.setValue('equipment_guidance', 'onChange is working!');
-
-   if (isLoading || newValue === '') {
+	if (isLoading){
+		return;
+	}
+   if (newValue === '') {
 	g_form.clearValue('equipment_guidance');
       return;
    }
@@ -23,7 +25,7 @@ if(newValue == 'laptop'){
         );
     } else if (newValue == 'desktop') {
         g_form.setValue('equipment_guidance',
-            'Return the monitor with all supplied cables and accessories.'
+            'Return the desktop with all supplied cables and accessories.'
         );
     } else if (newValue == 'mobile') {
         g_form.setValue(
@@ -40,7 +42,7 @@ if(newValue == 'laptop'){
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e53229ac557053107f446142e7cd4a0b</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Update Equipment Guidance</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Device App" source="x_snc_loaner_dev_0">0b8eb7449d3813107f443e87f2a1c437</sys_package>
@@ -48,7 +50,7 @@ if(newValue == 'laptop'){
         <sys_scope display_value="Loaner Device App">0b8eb7449d3813107f443e87f2a1c437</sys_scope>
         <sys_update_name>sys_script_client_e53229ac557053107f446142e7cd4a0b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-11-23 12:49:09</sys_updated_on>
+        <sys_updated_on>2026-11-25 12:14:31</sys_updated_on>
         <table>x_snc_loaner_dev_0_loaner_device_request</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
